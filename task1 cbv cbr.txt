@@ -1,0 +1,32 @@
+Copy by value:
+         primitive data types are peformed by copy by value. 
+         There are five primitive data types- Boolean,null,undefined,String,Number.
+       CODE:
+          var a=10;                        
+          var b=a;                           
+          a=20;                                     
+          console.log(b);                    
+                                                        
+         O/P: a=20
+                  b=10
+     
+         Here when we re-assign value to a  the value of b didn't change.
+
+
+
+Copy by Reference:
+            Non-primitive data types are performed by copy be Reference.
+            Array,Object,Function are Non-primitive data types.
+           CODE:
+            var arr1=[1,2,3];
+            var arr2=arr1;
+              arr2[0]=10;
+             console.log(arr2);
+            console.log(arr1);
+
+          O/P: arr2 =[10,2,3]
+                   arr1 =[10,2,3]
+
+              Here Both pointer arr1 and arr2 are refering to same address. 
+
+         
